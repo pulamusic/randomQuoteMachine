@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>random quote machine</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+    <!-- local stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>random quote machine</h1>
+        <h3>a freeCodeCamp front-end project</h3>
+        <hr>
+      </div>
+      <div class="row">
+        <div id="quote-box" class="col-md-12">
+          <div class="quote-box">
+            <!-- p elements filled in by JavaScript -->
+            <p id="text"></p>
+            <p id="author"></p>
+          </div>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a id="new-quote" href="#" class="btn btn-default btn-large get-quote"><i class="fas fa-pen-fancy fa-2x fa-fw"></i> get a quote</a></li>
+            <li class="list-inline-item"><a id="tweet-quote"  href="twitter.com/intent/tweet" class="btn btn-default btn-large share-quote"><i class="fab fa-twitter-square fa-2x fa-fw"></i> share on Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- scripts required for Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- local script -->
+    <script src="script.js"></script>
+    <!-- freeCodeCamp testing script -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

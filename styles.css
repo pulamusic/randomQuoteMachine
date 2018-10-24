@@ -1,0 +1,33 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  background-image: url(images/folk-pattern-black.png);
+  background-repeat: repeat;
+}
+
+body p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.list-inline {
+  text-align: center;
+}
+
+.get-quote, .share-quote {
+  border: 1px solid #000000;
+  background-color: #847043;
+  color: #eae3d3;
+}
+
+.quote-box {
+  max-width: 400px;
+  border: 1px solid #eae3d3;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto 20px auto;;
+}
